@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://vipi.com.ar/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://vipi.com.ar/index.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vipi.com.ar/nosotros.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vipi.com.ar/servicios.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vipi.com.ar/contacto.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vipi.com.ar/diseno_web.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vipi.com.ar/desarrollo_web.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vipi.com.ar/posicionamiento_web.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vipi.com.ar/tienda_web.html</loc>
+  <priority>0.80</priority>
+</url>
+</urlset>

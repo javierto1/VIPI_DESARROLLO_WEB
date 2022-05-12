@@ -1,0 +1,1034 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<link rel="shortcut icon" href="images/vipi2.png" type="image/png" />
+<link href="http://vipi.com.ar/images/vipi4.png" rel="image_src" />
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="es"/>
+    <meta name="revisit-after" content="15 days">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="Diseño, Desarrollo, web, sitios, sistemas, cordoba, argentina, posicionamiento, marketing"/>
+    <meta name="description" content="Empresa dedicada al Diseño de Sitios y Desarrollo de Sistemas Web, E-commerce, Marketing Digital y Redes Sociales en Cordoba - Argentina">
+    <meta name="author" content="vipi">
+    <meta http-equiv="refresh" content="600">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="VIPI Desarrollo y Asesoramiento Web">
+	<meta property="og:url" content="http://vipi.com.ar/index.html">
+	<meta property="og:image" content="http://vipi.com.ar/images/vipi4.png" >
+	<meta property="og:locale" content="es_AR">
+	
+	<meta property="og:title" content="VIPI Desarrollo y Asesoramiento Web ">
+	<meta property="og:description" content="Empresa dedicada al diseño de paginas web y sistemas web, ubicada en Cordoba - Argentina. Asesoramiento y desarrollo de E- commerce, Marketing Digital y Redes Sociales. En vipi se desarrolla todo tipo de software para la web, campañas de Marketing para E-commerce asi como Redes Sociales.">
+	
+    <title>VIPI Desarrollo, Diseño y Asesoramiento Web en Cordoba</title>
+	
+	
+
+    <link rel="alternate" href="http://vipi.com.ar" hreflang="x-default" />
+    <script type="application/ld+json">
+	{ 
+	  "@context": "http://schema.org", 
+	  "@type": "WebSite", 
+	  "url": "http://www.vipi.com.ar/", 
+	  "name": "VIPI Desarrollo y Asesoramiento Web",   
+	  "description": "Diseño de Sitios y Sistemas Web, E-commerce, Marketing Digital y Redes Sociales. - Córdoba - Argentina",
+	  "publisher": "VIPI"
+		}
+	</script>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+	
+	
+	
+	<!-------------------- EDITADO Theme CSS --------------------->
+    <link href="css/over_effect.css" rel="stylesheet">
+	<link href="css/one-page-wonder.css" rel="stylesheet">
+	<link href="css/servicios.css" rel="stylesheet">
+	<link href="css/navbar.css" rel="stylesheet">
+	<!-------------------- EDITADO Theme CSS --------------------->
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	
+	<!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script async>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82380109-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<style type="text/css">
+    .truncateOpt {
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+  </style>
+<script async type="text/javascript">
+
+$(function(){
+ $("#send_form").click(function(){
+ var url = "contact_me.php"; // El script a dónde se realizará la petición.
+    $.ajax({
+           type: "POST",
+           url: url,
+           data: $("#customForm").serialize(), // Adjuntar los campos del formulario enviado.
+           success: function(data)
+           {
+               //$("#enviado").html('<p class="alert alert-info">Mensaje Enviado!</p>'); // Mostrar la respuestas del script PHP.
+               $("#data").html(data);
+           }
+         });
+
+    return false; // Evitar ejecutar el submit del formulario.
+ });
+});
+/*
+  jQuery(document).ready(function($) {
+ 
+        $('#myCarousel').carousel({
+                interval: 5000
+        });
+ 
+        //Handles the carousel thumbnails
+        $('[id^=carousel-selector-]').click(function () {
+        var id_selector = $(this).attr("id");
+        try {
+            var id = /-(\d+)$/.exec(id_selector)[1];
+            console.log(id_selector, id);
+            jQuery('#myCarousel').carousel(parseInt(id));
+        } catch (e) {
+            console.log('Regex failed!', e);
+        }
+    });
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+                 var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-'+id).html());
+        });
+});
+*/
+</script>
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'es'}
+</script>
+<script async>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+</head>
+
+<body>
+
+	<div id="nav">
+		<div class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="100">
+		  <div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="index.html">
+					<img src="images/logo_vipi.png" class="img-fluid rounded-circle img-circle" width="60px" height="60px" alt="VIPI" style=" margin: 0 auto; border: 3px solid #eecd0e;">
+				</a>
+            </div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<h4><ul class="nav navbar-nav">
+						<li>
+							<a class="navbar1" href="index.html"><strong class="text-uppercase">Home</strong></a>
+						</li>
+						<li>
+							<a class="navbar1" href="nosotros.html"><strong class="text-uppercase">Nosotros</strong></a>
+						</li>
+						<li>
+							<a class="navbar1" href="servicios.html"><strong class="text-uppercase"> Servicios</strong></a>
+						</li>
+						<li>
+							<a class="navbar1" href="contacto.html"><strong class="text-uppercase"> Contacto</strong></a>
+						</li>
+				</ul></h4>
+			</div>
+
+			<!--/.nav-collapse -->
+		  </div>
+		  <!--/.contatiner -->
+		</div>
+	</div>
+	
+<div class="container col-lg-12" >
+    <!-- Full Width Image Header -->
+    <div class="row">
+		<div class="col-lg-0"></div>
+			<div>
+				<header class="header-image" style="border: 4px solid #eecd0e; border-style: solid none solid none;">
+					<div class="headline">
+						<div class="col-lg-4"></div>
+							<div class="container">
+								<h2><strong class="text-uppercase truncateOpt">< VIPI Desarrollo y</strong></h2>
+								
+								<h3><strong class="text-uppercase truncateOpt">Asesoramiento Web /></strong></h3>
+								
+							</div>
+					</div>
+				</header>
+
+			</div>
+			<hr>
+	</div>
+</div>	
+	
+	<center>
+		<div class="container">
+							<div class="row">
+								<div class="col-lg-12 text-xs-center">
+									<p><h1><strong class="text-uppercase">Diseño de Sitios y Sistemas Web</strong></h1></p>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="team-member">
+										<p class="lead text-justify">
+											<small>	
+													Empresa dedicada al Asesoramiento, Desarrollo de Sitios y Sistemas Web con sede en Córdoba Argentina. <br>
+													En VIPI diseñamos Sitios y Sistemas Web, utilizando procedimientos y estándares para que el desarrollo sea el mas optimo para su empresa o negocio sin perder el enfoque comercial que esta tenga y junto poder desarrollar un plan de Marketing que complemente y se adapte al mundo digital.<br>
+													Podemos encontrar muchas empresas que ofrezcan sus mismo productos y servicios, por eso es necesario fidelizar clientes, las Redes Sociales son una herramienta que nos permiten hacerlo pero son un elemento que debemos aprender a manejar, para ellos creamos junto con el plan de Marketing los manuales de contingencia y administración de Redes Sociales, capacitamos al personal para poder llevar a cabo todas las actividades vinculadas al social media.
+													El comercio electrónico es un mercado el alza y con mucho crecimiento a futuro, desarrollamos sistemas para administras sus ventas on-line junto con la logística que esta requiere.
+
+											</small>
+										</p>
+									</div>
+								</div>
+							</div>
+		</div>
+	</center>
+    	
+	
+	<hr>
+	
+	
+	<!-- Portfolio Grid Section -->
+    <center>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-xs-center">
+                    <p>
+						<h2>
+							<strong class="text-uppercase">Nuestros Diseños y Sistemas</strong>
+						</h2>
+					</p>
+                    <br>
+                </div>
+            </div>
+            
+			<div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4 portfolio-item">
+					<div class="thumbnail" style="box-shadow: 0px 1px 0px 0px rgb(238, 205, 14);">
+						<div class="hovereffect">
+							<img class="img-responsive" src="images/portfolio/baco.png" alt="e-commerce">
+								<div class="overlay">
+									<h2><strong class="text-uppercase">Distribuidora <br>Baco</strong></h2>
+									<p class="lead">
+										<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">Más Info</a>
+									</p> 
+								</div>
+								
+						</div>
+						<div class="caption">
+								<h4>
+									<strong class="text-uppercase">Distribuidora Baco</strong>
+								</h4>
+								<p>
+									Diseño Web y de Desarrollo de Sistema Auto-administrable.
+								</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-6 col-md-4 col-lg-4 portfolio-item">
+					<div class="thumbnail" style="box-shadow: 0px 1px 0px 0px rgb(51, 82, 160);">
+						<div class="hovereffect">
+							<img class="img-responsive" src="images/portfolio/gestor.png" alt="sistemas web">
+								<div class="overlay">
+									<h2><strong class="text-uppercase">Gestor de Prestamos</strong></h2>
+									<p class="lead">
+										<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">Más Info</a>
+									</p> 
+								</div>
+								
+						</div>
+						<div class="caption">
+								<h4>
+									<strong class="text-uppercase">Gestor de Prestamos</strong>
+								</h4>
+								<p>	
+									Diseño y Desarrollo de Sistema Contable Auto-administrable.
+									
+									
+								</p>
+						</div>
+					</div>
+				</div>
+                
+				
+				<div class="col-sm-6 col-md-4 col-lg-4 portfolio-item">
+					<div class="thumbnail" style="box-shadow: 0px 1px 0px 0px rgb(238, 205, 14);">
+						<div class="hovereffect">
+							<img class="img-responsive" src="images/portfolio/ziom_tech.png" alt="sitios web">
+								<div class="overlay">
+									<h2><strong class="text-uppercase">Siom Tech</strong></h2>
+									<p class="lead">
+										<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">Más Info</a>
+									</p> 
+								</div>
+								
+						</div>
+						<div class="caption">
+								<h4><strong class="text-uppercase">Siom Tech</strong></h4>
+								<p>
+									Diseño de Sitio Web, imágen institucional y posicionamiento en buscadores.
+								</p>
+						</div>
+					</div>
+				</div>
+				
+                <div class="col-sm-6 col-md-4 col-lg-4 portfolio-item">
+					<div class="thumbnail" style="box-shadow: 0px 1px 0px 0px rgb(51, 82, 160);">
+						<div class="hovereffect">
+							<img class="img-responsive" src="images/portfolio/turnero.png" alt="sistemas web">
+								<div class="overlay">
+									<h2><strong class="text-uppercase">Turnero</strong></h2>
+									<p class="lead">
+										<a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">Más Info</a>
+									</p> 
+								</div>
+								
+						</div>
+						<div class="caption">
+								<h4><strong class="text-uppercase">Turnero</strong></h4>
+								<p>
+									Diseño y Desarrollo de Sistema Web adaptable a sus necesidades.
+									   
+								</p>
+						</div>
+					</div>
+				</div>
+				
+                <div class="col-sm-6 col-md-4 col-lg-4 portfolio-item">
+					<div class="thumbnail" style="box-shadow: 0px 1px 0px 0px rgb(238, 205, 14);">
+						<div class="hovereffect">
+							<img class="img-responsive" src="images/portfolio/grafica.png" alt="sistemas web">
+								<div class="overlay">
+									<h2><strong class="text-uppercase">Gráfica "No Convencional"</strong></h2>
+									<p class="lead">
+										<a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">Más Info</a>
+									</p> 
+								</div>
+								
+						</div>
+						<div class="caption">
+								<h4><strong class="text-uppercase">Gráfica "No Convencional"</strong></h4>
+								<p>
+									Diseño y Desarrollo de Sitio y Sistema Web Auto-administrable.
+									 
+								</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-6 col-md-4 col-lg-4 portfolio-item">
+					<div class="thumbnail"  style="box-shadow: 0px 1px 0px 0px rgb(51, 82, 160);">
+						<div class="hovereffect">
+							<img class="img-responsive" src="images/portfolio/carrito.png" alt="e-commerce">
+								<div class="overlay">
+									<h2><strong class="text-uppercase">Tienda<br> On-line</strong></h2>
+									<p class="lead">
+										<a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">Más Info</a>
+									</p> 
+								</div>
+								
+						</div>
+						<div class="caption">
+								<h4><strong class="text-uppercase">Tienda On-line</strong></h4>
+								<p>
+									Diseño y Desarrollo de Sitio Web con E-commerce y registro de pago.
+									 
+								</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-6 col-md-4 col-lg-4 portfolio-item">
+					<div class="thumbnail"  style="box-shadow: 0px 1px 0px 0px rgb(238, 205, 14);">
+						<div class="hovereffect">
+							<img class="img-responsive" src="images/portfolio/panqueso.jpg" alt="e-commerce">
+								<div class="overlay">
+									<h2><strong class="text-uppercase">Pan <br> & <br>Queso</strong></h2>
+									<p class="lead">
+										<a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">Más Info</a>
+									</p> 
+								</div>
+								
+						</div>
+						<div class="caption">
+								<h4><strong class="text-uppercase">Pan & Queso</strong></h4>
+								<p>
+									Diseño y Desarrollo de aplicativo gratuito para sorteos de equipos imitando al antiguo Pan y Queso.
+									 
+								</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-6 col-md-4 col-lg-4 portfolio-item">
+					<div class="thumbnail"  style="box-shadow: 0px 1px 0px 0px rgb(51, 82, 160);">
+						<div class="hovereffect">
+							<img class="img-responsive" src="images/portfolio/ferrosed.png" alt="e-commerce">
+								<div class="overlay">
+									<h2><strong class="text-uppercase">Ferrosed SA</strong></h2>
+									<p class="lead">
+										<a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">Más Info</a>
+									</p> 
+								</div>
+								
+						</div>
+						<div class="caption">
+								<h4><strong class="text-uppercase">Ferrosed SA</strong></h4>
+								<p>
+									Diseño y Desarrollo de Sitio Web empresarial de empresa constructora.
+									 
+								</p>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+			</div>
+        </div>
+	</center>
+	
+	<hr>
+	
+	
+	<center>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-xs-center">
+                    <p>
+						<h2>
+							<strong class="text-uppercase">Nuestros Servicios</strong>
+						</h2>
+					</p>
+                    <br>
+                </div>
+            </div>
+            
+			
+            <div class="row no-gutter popup-gallery" style="border: 4px solid #eecd0e; border-style: solid none solid none;" >
+                <div class="col-lg-3 col-sm-6">
+                	<a href="diseno_web.html" class="portfolio-box">                    	
+                        <img src="images/servicios/diseno.jpg" class="img-responsive" alt="diseño web">                        
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                   <h2> <font color="white"> DISEÑO WEB</font><h2>
+                                </div>
+								<br>
+								<div class="project-category text-faded">
+                                    Más Info
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="desarrollo_web.html" class="portfolio-box">
+                        <img src="images/servicios/desarrollo1.jpg" class="img-responsive" alt="desarrollo web">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    <h2> <font color="white"> DESARROLLO WEB</font><h2>
+                                </div>
+								<br>
+								<div class="project-category text-faded">
+                                    Más Info
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="posicionamiento_web.html" class="portfolio-box">
+                        <img src="images/servicios/seo.jpg" class="img-responsive" alt="posicionamiento web">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    <h2> <font color="white"> POSICIONAMIENTO WEB</font><h2>
+                                </div>
+								<br>
+								<div class="project-category text-faded">
+                                    Más Info
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="tienda_web.html" class="portfolio-box">
+                        <img src="images/servicios/tienda.jpg" class="img-responsive" alt="e-commerce">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                
+                                <div class="project-name">
+                                    <h2> <font color="white"> TIENDA VIRTUAL</font><h2>
+                                </div>
+								<br>
+								<div class="project-category text-faded">
+                                    Más Info
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </center>	
+	
+	<hr>
+	
+	<!-- Page Content -->
+    <center>
+		<div class="container">
+			<!-- Services Section -->
+			<div class="row">
+				<p>
+					<h2>
+						<strong class="text-uppercase">Nos destacamos por</strong>
+					</h2>
+				</p>
+				<br>
+			</div>
+			<section id="services">
+				<div class="row">
+					<div class="row text-xs-center thumbnail"  style="box-shadow: 0px 0px 10px #888888;">
+						
+						<div class="col-md-4">
+							<span class="fa-stack fa-3x">
+								<i class="fa fa-circle fa-stack-2x text-warning"></i>
+								<i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3 class="service-heading">Diseño Responsivo</h3>
+							<p class="text-muted">Utilizamos tecnología responsive para adaptar la información a cualquier equipo que lo requiera. Cuidamos mucho la primera impresión.</p>
+						</div>
+						
+						<div class="col-md-4">
+							<span class="fa-stack fa-3x">
+								<i class="fa fa-circle fa-stack-2x text-info"></i>
+								<i class="fa fa-list-ol fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3 class="service-heading">SEO Posicionamiento</h3>
+							<p class="text-muted">Es lo que utilizamos para posicionar su sitio y así ser una de las primeras opciones en los buscadores. Queremos ser los mejores? Necesitamos estar primeros.</p>
+						</div>
+						
+						<div class="col-md-4">
+							<span class="fa-stack fa-3x">
+								<i class="fa fa-circle fa-stack-2x text-danger"></i>
+								<i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3 class="service-heading">Seguridad Web</h3>
+							<p class="text-muted">Ante todo debemos resguardar los datos. La seguridad debe ser fundamental en un sistema, es aquí donde tenemos nuestra mayor riqueza. Los clientes y sus datos.</p>
+						</div>
+						
+						<div class="col-md-4">
+							<span class="fa-stack fa-3x">
+								<i class="fa fa-circle fa-stack-2x text-danger"></i>
+								<i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3 class="service-heading">Autoadministración</h3>
+							<p class="text-muted">Sitios en donde usted mediante una plataforma web decide y elige qué va a mostrar. Administra Usuarios, clientes, reportes. Genera noticias, edita, sube y baja archivos.</p>
+						</div>
+						
+						<div class="col-md-4">
+							<span class="fa-stack fa-3x">
+								<i class="fa fa-circle fa-stack-2x text-default"></i>
+								<i class="fa fa-user fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3 class="service-heading">Perfiles de Usuarios</h3>
+							<p class="text-muted">Sitios y sistemas auto administrables necesitan de roles y usuarios. Una plataforma adaptada a las necesidades e intuitiva, que registra toda actividad de los usuarios con su sistema.</p>
+						</div>
+						
+						<div class="col-md-4">
+							<span class="fa-stack fa-3x">
+								<i class="fa fa-circle fa-stack-2x text-primary"></i>
+								<i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3 class="service-heading">Estadísticas</h3>
+							<p class="text-muted">Generamos listados con reportes y gráficos en donde se pueden analizar y comparar ventas, clientes, productos y servicios. Cómo interactuan los usuarios con el sistema. Emisión de reportes para la toma de decisiones.</p>
+						</div>
+						
+						<div class="col-md-4">
+							<span class="fa-stack fa-3x">
+								<i class="fa fa-circle fa-stack-2x text-success"></i>
+								<i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3 class="service-heading">Marketing Digital</h3>
+							<p class="text-muted">Diseñamos planes de Marketing Digital. Analizamos su empresa o producto y los asesoramos, generamos las piezas gráficas que van a acompañar a su campaña de Marketing Digital. Vender con Adwords, Facebook Ads y Twitter Ads.</p>
+						</div>
+						
+						<div class="col-md-4">
+							<span class="fa-stack fa-3x">
+								<i class="fa fa-circle fa-stack-2x text-warning"></i>
+								<i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3 class="service-heading">E-commerce</h3>
+							<p class="text-muted">Todos queremos estar en la web, pero pocos son los que se aventuran a vender en ella. Fácil y sencillo es lo que ofrecemos, un sistema con una interfaz amigable al usuario y así aumentar las ventas y la carta de clientes.</p>
+						</div>
+						
+						<div class="col-md-4">
+							<span class="fa-stack fa-3x">
+								<i class="fa fa-circle fa-stack-2x text-info"></i>
+								<i class="fa fa-users fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3 class="service-heading">Redes Sociales</h3>
+							<p class="text-muted">Administramos sus Redes, vinculación con su sitio Web. Vender es mas fácil con las Redes Sociales. Creamos planes de contingencia para redes sociales y capacitamos al personal para poder afrontar a un cliente disgustado.</p>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+		</div>
+	</center>
+	
+	<hr>
+	
+	<!-- Footer -->
+	<div class="container-image" style="border: 4px solid #eecd0e; border-style: solid none solid none;">
+		<center>
+			<section id="team" class="bg-light-gray">
+				<div class="container">
+					<div class="col-lg-1"></div>
+					<div class="col-lg-11">
+						<footer class="text-left" style="color:white;">
+							<div class="footer-above">
+								
+									<div class="row">
+										<div class="col-md-3 col-sm-6 col-xs-7">
+											<h3 style="color:white;   text-shadow: 2px 2px rgba(238, 205, 14, 0.18);"><b>UBICACIÓN</h3>
+											<br><span>CÓRDOBA, ARGENTINA</span>
+											<br><br>
+											<span> TELÉFONO: <a href="tel:+54 9 3518082553" style="color:#eecd0e;"> +54 9 3518082553</a>
+												<br><br>E-MAIL: <a href="mailto:vipi.desarrolloweb@gmail.com" style="color:#eecd0e;">vipi.desarrolloweb@gmail.com</a></span>
+											<br><br>
+											<h5 style="color:white; text-shadow: 2px 2px rgba(238, 205, 14, 0.18);"><b>MAPA DE SITIO</b></h5>
+													<span>
+													<small>
+														<a href="index.html" style="color:#eecd0e;">HOME</a> -
+														<a href="nosotros.html" style="color:#eecd0e;">NOSOTROS</a> -
+														<a href="servicios.html" style="color:#eecd0e;">SERVICIOS</a> -
+														<a href="contacto.html" style="color:#eecd0e;">CONTACTO</a><br>
+													</small>
+													</span>
+										</div>
+										
+										
+										<div class="col-md-3 col-sm-6 col-xs-5">
+											<h3 style="color:white; text-shadow: 2px 2px rgba(238, 205, 14, 0.18);"><b>SERVICIOS</h3>
+											<br><span>
+												<a href="diseno_web.html" style="color:#eecd0e;">DISEÑO WEB</a> <br><br>
+												<a href="desarrollo_web.html" style="color:#eecd0e;">DESARROLLO WEB</a> <br><br>
+												<a href="posicionamiento_web.html" style="color:#eecd0e;">POSICIONAMIENTO WEB</a> <br><br>
+												<a href="tienda_web.html" style="color:#eecd0e;">TIENDA VIRTUAL</a><br>
+											</span>
+										
+										</div>
+										
+										<div class="col-md-2 col-sm-3 col-xs-3">
+											<h3 style="color:white; text-shadow: 2px 2px rgba(238, 205, 14, 0.18);"><b>REDES SOCIALES</h3>
+											<span>
+												<a href="https://twitter.com/VipiWeb" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @VipiWeb</a> 
+											</span><br>
+											<span>
+												<div class="g-follow" data-annotation="bubble" data-height="24" data-href="https://plus.google.com/112747278621592486885" data-rel="author"></div>
+											</span>
+										</div>
+										
+										<div class="footer-col col-md-4 col-sm-6 col-xs-12">
+											
+											<form class="form-horizontal"  method="post" class="contacto" name="customForm" id="customForm" enctype="multipart/form-data">
+												<fieldset>
+													<h3 style="color:white; text-shadow: 2px 2px rgba(238, 205, 14, 0.18);"><b>CONTÁCTENOS</b></h3>
+													<div class="form-group">
+													  <div class="col-lg-10">
+														<input type="text" class="form-control input-sm" id="name" name="name" placeholder="Nombre y Apellido" required>
+													  </div>
+													</div>
+													
+													<div class="form-group">
+													  <div class="col-lg-10">
+														<input type="email" class="form-control input-sm" id="email" name="email" placeholder="Email" required>
+													  </div>
+													</div>
+													
+													<div class="form-group">
+													  <div class="col-lg-10">
+														<input type="number" class="form-control input-sm" id="phone" name="phone" placeholder="Teléfono" required>
+													  </div>
+													</div>
+													
+													<div class="form-group">
+													  <div class="col-lg-10">
+														<textarea class="form-control input-sm" rows="3" id="message" name="message" placeholder="Mensaje..." required></textarea>
+														
+													  </div>
+													</div>
+													
+													<div id="enviado" class="form-group col-xs-10">
+														<button type="submit" class="btn btn-default btn-xs" id="send_form" name="send_form">Enviar</button>
+														
+													</div>
+													<div id="data" class="form-group col-xs-10">
+														
+														
+													</div>
+													
+												</fieldset>
+											</form>
+										</div>
+										
+										
+									</div>
+								
+							</div>
+						</footer>
+					</div>
+				</div>
+			</section>
+		</center>
+	</div>
+	<!-- FIN DE Footer -->
+	
+	<center>
+		<div class="container col-lg-12" style="background-color: #fff;">
+			<div class="row">
+				<div class="footer-col col-lg-12">
+									<hr>
+									<img src="images/logo_vipi.png" class="img-fluid rounded-circle img-circle" width="90px" height="90px" alt="vipi" style=" margin: 0 auto; border: 3px solid #eecd0e;">
+				<br><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+				
+					Copyright © VIPI Desarrollo y Asesoramiento Web 2017
+					<hr>
+				</div>
+				
+			</div>
+		</div>
+    </center>
+	<!-- FINNN DE FOOTERRRRRRRRRRRRRRRRRRRRRRRRRRRRR -->
+	
+	
+    <a id="back-to-top" style="color: #eecd0e;" href="#" class="btn-lg back-to-top" role="button" title="IR ARRIBA" data-toggle="tooltip" data-placement="left">
+		<i class="fa fa-chevron-circle-up fa-4x" aria-hidden="true"></i>
+	</a>
+
+	<!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+	
+	<center>
+		<!-- Portfolio Modal 1 -->
+		<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button style="color: #eecd0e;" role="button" type="button" class="close" data-dismiss="modal">
+							<i class="fa fa-times-circle fa-2x" aria-hidden="true"></i>
+						</button>
+						<h2>Baco</h2>
+						<p class="item-intro text-muted">Sistema de stock y ventas. Imagen institucional.</p>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 offset-lg-2">
+								<div class="modal-body col-sm-9" >
+									<!-- Project Details Go Here -->
+									<img class="img-fluid img-responsive" src="images/portfolio/baco.png" alt="e-commerce">
+									<hr>
+									<p> Baco, es un sistema de administracion con e-commerce, desarrollado especialmente para una empresa mayorista de bebidas, es un sitema completo que abarca desde el registro de stock, la facturación
+										<a href="http://www.vipi.com.ar/Baco" target="_blank">Ver Sitio</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</center>
+	
+	<center>
+		<!-- Portfolio Modal 2 -->
+		<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button style="color: #eecd0e;" role="button" type="button" class="close" data-dismiss="modal">
+							<i class="fa fa-times-circle fa-2x" aria-hidden="true"></i>
+						</button>
+						<h2>GESTOR DE PRESTAMOS</h2>
+						<p class="item-intro text-muted">Sistema contable para administración y pagos.</p>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 offset-lg-2">
+								<div class="modal-body col-sm-9">
+									<img class="img-fluid img-responsive" src="images/portfolio/gestor.png" alt="sistemas web">
+									<hr>
+									<p>Sistema diseñado para un empresa crediticia, en este sistema encontramos un sin fin de utilidades, desde la aprobación de un crédito, generación de cuotas; hasta los pagos clasificados por día y cobrador. Tiene un modulo de estadísticas muy útil para el cliente.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</center>
+	
+	<center>
+		<!-- Portfolio Modal 3 -->
+		<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button style="color: #eecd0e;" role="button" type="button" class="close" data-dismiss="modal">
+							<i class="fa fa-times-circle fa-2x" aria-hidden="true"></i>
+						</button>
+						<h2>SIOM TECH</h2>
+						<p class="item-intro text-muted">Desarrollo web, imagen institucional.</p>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 offset-lg-2">
+								<div class="modal-body col-sm-9">
+									<!-- Project Details Go Here -->
+									<img class="img-fluid img-responsive" src="images/portfolio/ziom_tech.png" alt="sitios web">
+									<hr>
+									<p>Sitio Web comercial-promocional para una empresa del rubro electro-mecánico, a la cuál se le realizó asesoramiento comercial, diseño de imagen y capacitación en redes sociales. 
+										<a href="http://www.siom-tech.com" target="_blank">Ver Sitio</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</center>
+    
+	<center>
+		<!-- Portfolio Modal 4 -->
+		<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button style="color: #eecd0e;" role="button" type="button" class="close" data-dismiss="modal">
+							<i class="fa fa-times-circle fa-2x" aria-hidden="true"></i>
+						</button>
+						<h2>Turnero</h2>
+						<p class="item-intro text-muted">Sistema de Gestion de turnos</p>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 offset-lg-2">
+								<div class="modal-body col-sm-9">
+									<!-- Project Details Go Here -->
+									<img class="img-fluid img-responsive" src="images/portfolio/turnero.png" alt="paginas web">
+									<hr>
+									<p>Sistema diseñado para atención al publico, impresión de turnos y la correspondiente pantalla para el publico en espera.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</center>
+	
+	<center>
+		<!-- Portfolio Modal 5 -->
+		<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button style="color: #eecd0e;" role="button" type="button" class="close" data-dismiss="modal">
+							<i class="fa fa-times-circle fa-2x" aria-hidden="true"></i>
+						</button>
+						<h2>GRÁFICA "NO CONVENCIONAL"</h2>
+						<p class="item-intro text-muted">Sistema de control, análisis, ventas, stock, envíos y autogestión de usuarios.</p>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 offset-lg-2">
+								<div class="modal-body col-sm-9">
+									<!-- Project Details Go Here -->
+									<img class="img-fluid img-responsive" src="images/portfolio/grafica.png" alt="sistemas">
+									<hr>
+									<p>Sistema robusto que tiene como principal enfoque la autogestión del usuario, lo que le permite realizar pedidos desde su casa. Administra clientes, usuarios, stock, facturación, productos, pedidos, estadísticas, reportes.
+										<a href="http://www.vipi.com.ar/NC" target="_blank">Ver Sitio</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</center>
+	
+	<center>
+		<!-- Portfolio Modal 6 -->
+		<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button style="color: #eecd0e;" role="button" type="button" class="close" data-dismiss="modal">
+							<i class="fa fa-times-circle fa-2x" aria-hidden="true"></i>
+						</button>
+						<h2>Tienda on-line</h2>
+						<p class="item-intro text-muted">E-comerce, administracion de ventas y envios.</p>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 offset-lg-2">
+								<div class="modal-body col-sm-9">
+									<!-- Project Details Go Here -->
+									<img class="img-fluid img-responsive" src="images/portfolio/carrito.png" alt="tienda virtual">
+									<hr>
+									<p>Tienda digital en donde se aplica todo el conocimiento de e-commerce y marketing digital, con exhibición de productos, pagos y logística.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</center>
+	
+	<center>
+		<!-- Portfolio Modal 7 -->
+		<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button style="color: #eecd0e;" role="button" type="button" class="close" data-dismiss="modal">
+							<i class="fa fa-times-circle fa-2x" aria-hidden="true"></i>
+						</button>
+						<h2>Pan & Queso</h2>
+						<p class="item-intro text-muted">Aplicativo Web</p>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 offset-lg-2">
+								<div class="modal-body col-sm-9">
+									<!-- Project Details Go Here -->
+									<img class="img-fluid img-responsive" src="images/portfolio/panqueso.jpg" alt="tienda virtual">
+									<hr>
+									<p>Aplicativo web para sorteo de equipos de fútbol, al mejor estilo Pan y Queso antiguo
+										<a href="http://www.vipi.com.ar/Pan&Queso" target="_blank">Ver Sitio</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</center>
+	
+	<center>
+		<!-- Portfolio Modal 8 -->
+		<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button style="color: #eecd0e;" role="button" type="button" class="close" data-dismiss="modal">
+							<i class="fa fa-times-circle fa-2x" aria-hidden="true"></i>
+						</button>
+						<h2>Ferrosed SA</h2>
+						<p class="item-intro text-muted">Sitio Web Empresarial.</p>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 offset-lg-2">
+								<div class="modal-body col-sm-9">
+									<!-- Project Details Go Here -->
+									<img class="img-fluid img-responsive" src="images/portfolio/ferrosed.png" alt="tienda virtual">
+									<hr>
+									<p>Sitio Web empresarial para empresa Ferrosed SA, empresa constructora de la ciudad de Córdoba.
+										<a href="http://www.vipi.com.ar/Ferrosed" target="_blank">Ver Sitio</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</center>
+	
+	
+	
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script>
+		$(document).ready(function(){
+			 $(window).scroll(function () {
+					if ($(this).scrollTop() > 50) {
+						$('#back-to-top').fadeIn();
+					} else {
+						$('#back-to-top').fadeOut();
+					}
+				});
+				// scroll body to 0px on click
+				$('#back-to-top').click(function () {
+					$('#back-to-top').tooltip('hide');
+					$('body,html').animate({
+						scrollTop: 0
+					}, 800);
+					return false;
+				});
+				
+				$('#back-to-top').tooltip('show');
+
+		});
+	</script>
+	
+</body>
+
+</html>

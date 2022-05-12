@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://vipi.com.ar/</title>
+  <link>http://vipi.com.ar/</link>
+
+<item>
+     <link>http://vipi.com.ar/</link>
+     <title>VIPI Desarrollo y Asesoramiento Web</title>
+     <description>VIPI Desarrollo y Asesoramiento Web</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://vipi.com.ar/index.html</link>
+     <title>VIPI Desarrollo y Asesoramiento Web</title>
+     <description>VIPI Desarrollo y Asesoramiento Web</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://vipi.com.ar/nosotros.html</link>
+     <title>VIPI Desarrollo y Asesoramiento Web - QUIENES SOMOS, CONÓZCANOS</title>
+     <description>VIPI Desarrollo y Asesoramiento Web - QUIENES SOMOS, CONÓZCANOS</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://vipi.com.ar/servicios.html</link>
+     <title>VIPI Desarrollo y Asesoramiento Web - NUESTROS SERVICIOS </title>
+     <description>VIPI Desarrollo y Asesoramiento Web - NUESTROS SERVICIOS </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://vipi.com.ar/contacto.html</link>
+     <title>VIPI Desarrollo y Asesoramiento Web - CONTACTÁNOS </title>
+     <description>VIPI Desarrollo y Asesoramiento Web - CONTACTÁNOS </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://vipi.com.ar/diseno_web.html</link>
+     <title>VIPI Desarrollo y Asesoramiento Web - DISEÑO WEB</title>
+     <description>VIPI Desarrollo y Asesoramiento Web - DISEÑO WEB</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://vipi.com.ar/desarrollo_web.html</link>
+     <title>VIPI Desarrollo y Asesoramiento Web - DESARROLLO WEB</title>
+     <description>VIPI Desarrollo y Asesoramiento Web - DESARROLLO WEB</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://vipi.com.ar/posicionamiento_web.html</link>
+     <title>VIPI Desarrollo y Asesoramiento Web - POSICIONAMIENTO WEB</title>
+     <description>VIPI Desarrollo y Asesoramiento Web - POSICIONAMIENTO WEB</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://vipi.com.ar/tienda_web.html</link>
+     <title>VIPI Desarrollo y Asesoramiento Web - TIENDA WEB</title>
+     <description>VIPI Desarrollo y Asesoramiento Web - TIENDA WEB</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

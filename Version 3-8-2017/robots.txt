@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /contact_me.php
+
+Disallow: /contact_meII.php
+
+Allow: [the URL path in of a subdirectory, within a blocked parent directory, that you want to unblock]
+
+User-agent: Googlebot-Image
+
+User-agent: Mediapartners-Google

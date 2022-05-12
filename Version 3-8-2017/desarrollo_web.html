@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="shortcut icon" href="images/vipi2.png" type="image/png" />
+<link href="http://vipi.com.ar/images/vipi.png" rel="image_src" />
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="revisit-after" content="15 days">    
+    <meta name="Keywords" content="Desarrollo, web, sistemas web, sistemas para empresas, sistemas de administricacion"/>
+    <meta name="description" content="Creación de sistemas web para Internet o una intranet, Desarrollo y diseño de Sistemas de administracion para la web.">
+    <meta name="author" content="vipi">
+    <meta http-equiv="refresh" content="600">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="VIPI Desarrollo y Asesoramiento Web">
+	<meta property="og:url" content="http://vipi.com.ar/desarrollo_web.html">
+	<meta property="og:image" content="http://vipi.com.ar/images/vipi.png" >
+	<meta property="og:locale" content="es_AR">
+	
+	<meta property="og:title" content="VIPI Desarrollo y Asesoramiento Web - Desarrollo Web">
+	<meta property="og:description" content="Un sistema de información web es un sistema que lleva consigo métodos organizados para recopilar, procesar, transmitir datos que representan información. Un sistema de información engloba la infraestructura, la organización, el personal y todos los componentes necesarios para la recopilación, procesamiento, almacenamiento, transmisión, visualización y organización de la información.">
+    
+	<title>VIPI Desarrollo de Sistemas Web</title>
+	<link rel="alternate" href="http://vipi.com.ar" hreflang="x-default" />
+    <script type="application/ld+json">
+	{ 
+	  "@context": "http://schema.org", 
+	  "@type": "WebSite", 
+	  "url": "http://www.vipi.com.ar/", 
+	  "name": "VIPI Desarrollo y Asesoramiento Web",   
+	  "description": "Diseño de Sitios y Sistemas Web, E-commerce, Marketing Digital y Redes Sociales. - Córdoba - Argentina",
+	  "publisher": "VIPI"
+		}
+	</script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+	<!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+	<!-- NAVS CSS -->
+    <link href="css/navs.css" rel="stylesheet">
+	<link href="css/navbar.css" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	
+	<!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+     <script type="application/ld+json">
+{ 
+  "@context": "http://schema.org", 
+  "@type": "WebSite", 
+  "url": "http://www.vipi.com.ar/desarrollo_web.html", 
+  "name": "Desarrollo de sistemas Web en Cordoba",   
+  "description": "Diseño de Sitios y Sistemas Web, E-commerce, Marketing Digital y Redes Sociales. - Cordoba - Argentina",
+  "publisher": "VIPI"
+    }
+</script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82380109-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+
+$(function(){
+ $("#send_form").click(function(){
+ var url = "contact_me.php"; // El script a dónde se realizará la petición.
+    $.ajax({
+           type: "POST",
+           url: url,
+           data: $("#customForm").serialize(), // Adjuntar los campos del formulario enviado.
+           success: function(data)
+           {
+               //$("#enviado").html('<p class="alert alert-info">Mensaje Enviado!</p>'); // Mostrar la respuestas del script PHP.
+               $("#data").html(data);
+           }
+         });
+
+    return false; // Evitar ejecutar el submit del formulario.
+ });
+});
+
+
+</script>
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'es'}
+</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+</script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <div id="nav">
+		<div class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="100">
+		  <div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="index.html">
+					<img src="images/logo_vipi.png" class="img-fluid rounded-circle img-circle" width="60px" height="60px" alt="" style=" margin: 0 auto; border: 3px solid #eecd0e;">
+				</a>
+            </div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<h4><ul class="nav navbar-nav">
+						<li>
+							<a class="navbar1" href="index.html"><strong class="text-uppercase">Home</strong></a>
+						</li>
+						<li>
+							<a class="navbar1" href="nosotros.html"><strong class="text-uppercase">Nosotros</strong></a>
+						</li>
+						<li>
+							<a class="navbar1" href="servicios.html"><strong class="text-uppercase"> Servicios</strong></a>
+						</li>
+						<li>
+							<a class="navbar1" href="contacto.html"><strong class="text-uppercase"> Contacto</strong></a>
+						</li>
+				</ul></h4>
+			</div>
+			<!--/.nav-collapse -->
+		  </div>
+		  <!--/.contatiner -->
+		</div>
+	</div>
+	
+	<div class="container col-lg-12">
+		<!-- Full Width Image Header -->
+		<div class="row">
+			<div class="col-lg-0"></div>
+				
+	<div class="container-image" style="border: 4px solid #eecd0e; border-style: solid none solid none;">
+		<center>
+			<section id="team" class="bg-light-gray">
+				<div class="container">
+					
+					<div class="col-lg-11">
+						<footer class="text-left" style="color:white;">
+							<div class="footer-above">
+								
+									<div class="row">										
+										
+										<div class="footer-col col-md-12">
+											<h2 style="color:white;"><b>Servicios</h2>
+											<hr >
+											
+											<span>
+													<div class="footer-col col-md-3">
+												<h4><a href="diseno_web.html" style="color:white;">Diseño Web</a></h4> 
+													</div>
+														<div class="footer-col col-md-3">
+												<h4><a href="desarrollo_web.html" style="color:white;">Desarrollo Web</a> </h4>
+													</div>
+														<div class="footer-col col-md-3">
+												<h4><a href="posicionamiento_web.html" style="color:white;">Posicionamiento Web</a></h4>
+													</div>
+														<div class="footer-col col-md-3"> 
+												<h4><a href="tienda_web.html" style="color:white;">Tienda Virtual</a></h4>
+											</div>
+											</span>
+										
+										</div>
+										
+										
+									</div>
+								
+							</div>
+						</footer>
+					</div>
+				</div>
+			</section>
+		</center>
+	</div>
+				<hr>
+		</div>
+	</div>	
+	
+	
+	
+	
+    
+    <!-- Page Content -->
+    <div class="container">		
+
+
+        <div class="row">
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-12">
+
+                <!-- Blog Post -->
+
+                <!-- Title -->
+                <h1>Desarrollo Web <small>VIPI</small></h1>
+
+                
+
+                <hr>
+
+                
+
+                <!-- Preview Image -->
+                <img class="img-responsive" src="images/desarrollo.jpg" alt="">
+
+                <hr>
+                <h3>Desarrollo Web</h3>
+                <!-- Post Content -->
+                <p class="lead">El desarrollo de un sistema de información web es un sistema que lleva consigo métodos organizados para recopilar, procesar, transmitir datos que representan información. Un sistema de información engloba la infraestructura, la organización, el personal y todos los componentes necesarios para la recopilación, procesamiento, almacenamiento, transmisión, visualización y organización de la información.</p>
+                <h3>Las etapas del proceso de desarrollo de software web:</h3>
+                	<h3>Planificación:</h3>
+                <p>Antes de iniciar un proyecto de desarrollo de un sistema de información, es necesario realizar una serie de tareas previas. Estas tareas se realizarán en la fase inicial del proyecto incluyen actividades tales como la determinación del ámbito del proyecto, la realización de un estudio de viabilidad, el análisis de los riesgos asociados al proyecto, una estimación del coste del proyecto, su planificación temporal y la asignación de recursos a las distintas etapas del proyecto.</p>
+                <h3>Análisis - Comprender el problema</h3>
+                <p>Lo primero que debemos hacer para construir un sistema de información es averiguar qué es exactamente lo que tiene que hacer el sistema. La etapa de análisis corresponde al proceso mediante el cual se intenta descubrir qué es lo que realmente se necesita y se llega a una comprensión adecuada de los requerimientos del sistema (las características que el sistema debe poseer).</p>
+                <h3>Diseño - Plantear una posible solución, considerando soluciones alternativas</h3>
+                <p>En la fase de diseño se han de estudiar posibles alternativas de implementación para el sistema de información que hemos de construir y se ha de decidir la estructura general que tendrá el sistema (su diseño arquitectónico). El diseño de un sistema es complejo y el proceso de diseño ha de realizarse de forma iterativa. </p>
+                <h3>Implementación - Llevar a cabo la solución planteada</h3>
+                <p>Una vez que sabemos qué funciones debe desempeñar nuestro sistema de información (análisis) y hemos decidido cómo vamos a organizar sus distintos componentes (diseño), es el momento de pasar a la etapa de implementación. Para la fase de implementación hemos de seleccionar las herramientas adecuadas, un entorno de desarrollo que facilite nuestro trabajo y un lenguaje de programación apropiado para el tipo de sistema que vayamos a construir.</p>
+                <h3>Pruebas - Comprobar que el resultado obtenido es correcto</h3>
+                <p>La etapa de pruebas tiene como objetivo detectar los errores que se hayan podido cometer en las etapas anteriores del proyecto (y, eventualmente, corregirlos). Lo suyo, además, es hacerlo antes de que el usuario final del sistema los tenga que sufrir. De hecho, una prueba es un éxito cuando se detecta un error (y no al revés, como nos gustaría pensar).</p>
+                <h3>Instalación / Despliegue</h3>
+                <p>En la estapa de instalación y despliegue hemos de planificar el entorno en el que el sistema debe funcionar, tanto hardware como software: equipos necesarios y su configuración física, redes de interconexión entre los equipos y de acceso a sistemas externos, sistemas operativos (actualizados para evitar problemas de seguridad), bibliotecas y componentes suministrados por terceras partes, etcétera.</p>
+                <h3>Uso y mantenimiento </h3>
+                <p>El mantenimiento incluye tres facetas diferentes:
+                	<ul>
+                		<li>Eliminar los defectos que se detecten durante su vida útil (mantenimiento correctivo.</li>
+                		<li>Adaptarlo a nuevas necesidades (mantenimiento adaptativo), cuando el sistema ha de funcionar sobre una nueva versión del sistema operativo o en un entorno hardware diferente.</li>
+                		<li>Añadirle nueva funcionalidad (mantenimiento perfectivo), cuando se proponen características deseables que supondrían una mejora del sistema ya existente.</li>
+					 </p>
+
+
+
+
+                <hr>
+
+                <!-- Blog Comments -->               
+               
+
+            </div>
+
+            
+
+        </div>
+    </div>
+        <!-- /.row -->
+
+        <hr>
+	
+	<!-- Footer -->
+	<div class="container-image" style="border: 4px solid #eecd0e; border-style: solid none solid none;">
+		<center>
+			<section id="team" class="bg-light-gray">
+				<div class="container">
+					<div class="col-lg-1"></div>
+					<div class="col-lg-11">
+						<footer class="text-left" style="color:white;">
+							<div class="footer-above">
+								
+									<div class="row">
+										<div class="col-md-3 col-sm-6 col-xs-7">
+											<h3 style="color:white;   text-shadow: 2px 2px rgba(238, 205, 14, 0.18);"><b>UBICACIÓN</h3>
+											<br><span>CÓRDOBA, ARGENTINA</span>
+											<br><br>
+											<span> TELÉFONO: <a href="tel:+54 9 3518082553" style="color:#eecd0e;"> +54 9 3518082553</a>
+												<br><br>E-MAIL: <a href="mailto:vipi.desarrolloweb@gmail.com" style="color:#eecd0e;">vipi.desarrolloweb@gmail.com</a></span>
+											<br><br>
+											<h5 style="color:white; text-shadow: 2px 2px rgba(238, 205, 14, 0.18);"><b>MAPA DE SITIO</b></h5>
+													<span>
+													<small>
+														<a href="index.html" style="color:#eecd0e;">HOME</a> -
+														<a href="nosotros.html" style="color:#eecd0e;">NOSOTROS</a> -
+														<a href="servicios.html" style="color:#eecd0e;">SERVICIOS</a> -
+														<a href="contacto.html" style="color:#eecd0e;">CONTACTO</a><br>
+													</small>
+													</span>
+										</div>
+										
+										
+										<div class="col-md-3 col-sm-6 col-xs-5">
+											<h3 style="color:white; text-shadow: 2px 2px rgba(238, 205, 14, 0.18);"><b>SERVICIOS</h3>
+											<br><span>
+												<a href="diseno_web.html" style="color:#eecd0e;">DISEÑO WEB</a> <br><br>
+												<a href="desarrollo_web.html" style="color:#eecd0e;">DESARROLLO WEB</a> <br><br>
+												<a href="posicionamiento_web.html" style="color:#eecd0e;">POSICIONAMIENTO WEB</a> <br><br>
+												<a href="tienda_web.html" style="color:#eecd0e;">TIENDA VIRTUAL</a><br>
+											</span>
+										
+										</div>
+										<div class="col-md-2 col-sm-3 col-xs-3">
+											<h3 style="color:white; text-shadow: 2px 2px rgba(238, 205, 14, 0.18);"><b>REDES SOCIALES</h3>
+											<span>
+												<a href="https://twitter.com/VipiWeb" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @VipiWeb</a> 
+											</span><br>
+											<span>
+												<div class="g-follow" data-annotation="bubble" data-height="24" data-href="https://plus.google.com/112747278621592486885" data-rel="author"></div>
+											</span>
+										</div>
+										
+										<div class="footer-col col-md-4 col-sm-6 col-xs-12">
+											
+											<form class="form-horizontal"  method="post" class="contacto" name="customForm" id="customForm" enctype="multipart/form-data">
+												<fieldset>
+													<h3 style="color:white; text-shadow: 2px 2px rgba(238, 205, 14, 0.18);"><b>CONTÁCTENOS</b></h3>
+													<div class="form-group">
+													  <div class="col-lg-10">
+														<input type="text" class="form-control input-sm" id="name" name="name" placeholder="Nombre y Apellido" required>
+													  </div>
+													</div>
+													
+													<div class="form-group">
+													  <div class="col-lg-10">
+														<input type="email" class="form-control input-sm" id="email" name="email" placeholder="Email" required>
+													  </div>
+													</div>
+													
+													<div class="form-group">
+													  <div class="col-lg-10">
+														<input type="number" class="form-control input-sm" id="phone" name="phone" placeholder="Teléfono" required>
+													  </div>
+													</div>
+													
+													<div class="form-group">
+													  <div class="col-lg-10">
+														<textarea class="form-control input-sm" rows="3" id="message" name="message" placeholder="Mensaje..." required></textarea>
+														
+													  </div>
+													</div>
+													
+													<div id="enviado" class="form-group col-xs-10">
+														<button type="submit" class="btn btn-default btn-xs" id="send_form" name="send_form">Enviar</button>
+														
+													</div>
+													<div id="data" class="form-group col-xs-10">
+														
+														
+													</div>
+													
+												</fieldset>
+											</form>
+										</div>
+										
+										
+									</div>
+								
+							</div>
+						</footer>
+					</div>
+				</div>
+			</section>
+		</center>
+	</div>
+	<!-- FIN DE Footer -->
+	
+	
+	<center>
+		<div class="container col-lg-12" style="background-color: #fff;">
+			<div class="row">
+				<div class="footer-col col-lg-12">
+									<hr>
+									<img src="images/logo_vipi.png" class="img-fluid rounded-circle img-circle" width="90px" height="90px" alt="" style=" margin: 0 auto; border: 3px solid #eecd0e;">
+				<br><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+				
+					Copyright © VIPI Desarrollo y Asesoramiento Web 2017
+					<hr>
+				</div>
+				
+			</div>
+		</div>
+    </center>
+	<!-- FINNN DE FOOTERRRRRRRRRRRRRRRRRRRRRRRRRRRRR -->
+	
+	<a id="back-to-top" style="color: #eecd0e;" href="#" class="btn-lg back-to-top" role="button" title="IR ARRIBA" data-toggle="tooltip" data-placement="left">
+		<i class="fa fa-chevron-circle-up fa-4x" aria-hidden="true"></i>
+	</a>
+	
+	
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script>
+		$(document).ready(function(){
+			 $(window).scroll(function () {
+					if ($(this).scrollTop() > 50) {
+						$('#back-to-top').fadeIn();
+					} else {
+						$('#back-to-top').fadeOut();
+					}
+				});
+				// scroll body to 0px on click
+				$('#back-to-top').click(function () {
+					$('#back-to-top').tooltip('hide');
+					$('body,html').animate({
+						scrollTop: 0
+					}, 800);
+					return false;
+				});
+				
+				$('#back-to-top').tooltip('show');
+
+		});
+	</script>
+	
+</body>
+
+</html>
